@@ -1,0 +1,529 @@
+body
+{
+    animation: animate 1s linear;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* =======HEADER======= */
+
+.header{
+    background-color: black;
+    height: 50px;
+    margin-bottom: 70px;
+    width: 100%;
+    z-index: 123;
+    position: fixed;
+    
+}
+
+.header-right{
+    float: right;
+}
+
+.header .header-right-ul img{
+    width: 5rem;
+    height: 50px;
+}
+
+.header .header-right-ul li{
+    list-style-type: none;
+    display: flex;
+    float: left;
+    line-height: 50px;
+    padding: 0px 25px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.header .header-right-ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: all 0.5s ease;
+}
+
+.header .header-right-ul li:hover{
+    background-color: rgb(149, 168, 149);
+    cursor: pointer;
+    
+}
+
+.header .header-right-ul li a:hover{
+    transform: scale(1.2);
+}
+
+/* =======CONTENT======= */
+
+.main1{
+    
+  margin-top:  100px;
+}
+
+.rasm-paragrif{
+    position: relative;
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.rasm1 img{
+    width: 550px;
+    margin-right: 50px;
+    height: 350px;
+    box-shadow: 15px 10px 25px 10px;
+    border-radius: 20px;
+}
+
+.rasm2 img{
+    box-shadow: 15px 10px 25px 10px;
+    border-radius: 20px;
+}
+
+.paragrif1{
+    text-align: center;
+    font-family: sans-serif;
+    transition: all 0.5s ease;
+    padding: 10px 20px;
+}
+
+.paragrif1 h2{
+    text-shadow: 2px 3px 0px grey;
+}
+
+.paragrif2{
+    text-align: center;
+    font-family: sans-serif;
+    margin-right: 50px;
+    transition: all 0.5s ease;
+    padding: 10px 20px;
+}
+
+.paragrif2 h2{
+    text-shadow: 2px 3px 0px grey;
+}
+
+/* HOVER */
+
+.paragrif1:hover{
+    transform: scale(0.97);
+    cursor: pointer;
+}
+ 
+.paragrif2:hover{
+    transform: scale(0.97);
+    cursor: pointer;
+}
+
+.rasm1:hover{
+    opacity: 0.8;
+    transition: all .5s ease;
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.rasm2:hover{
+    opacity: 0.8;
+    transform: translateY(-20px);
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+/* =======CARDS======= */
+
+
+/* ====================================================== */
+.jamoa{
+    margin-bottom: 50px;
+    text-shadow: 2px 3px 0px yellow;
+    filter: blur(1px);
+}
+
+.nodir{
+    margin-bottom: 50px;
+    text-shadow: 2px 3px 0px yellow;
+    filter: blur(1px);
+}
+.subline{
+    margin-bottom: 50px;
+    text-shadow: 2px 3px 0px yellow;
+    filter: blur(1px);
+}
+/* ======================================================= */
+
+ 
+.all-cards{
+    background-image: url('./imeges/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 20px 10px grey;
+    cursor: pointer;
+}
+
+/* BIRINCHI QATOR */
+
+
+
+.cards1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+.cards1 .card1{
+    border: 3px solid #fff;
+    display: flex;
+    width: 15%;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+
+.cards1 .card1 .card1-image img{
+    width: 100%;
+    height: auto;
+    transition: all 1s ease;
+}
+
+.cards1 .card1 .card1-subtitle{
+    color: yellow;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+.cards1 .card1 .card1-subtitle h4{
+    letter-spacing: 2px;
+}
+
+/* HOVER */
+
+.cards1 .card1:hover{
+    box-shadow: 10px 5px 20px 5px yellow;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* ACTIVE */
+
+.cards1 .card1:active{
+    transform: translateX(40px);
+}
+
+
+/*====== TARKIB ======*/
+
+
+/* ===1=== */
+
+.tarkib{
+    background-image: url('./imeges/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+
+.tarkib-hujum{
+    display: flex;
+    justify-content: center;
+}
+
+.tarkib-hujum .tarkib1{
+    border: 3px solid #fff;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    width: 18%;
+    height: auto;
+    margin: 50px 40px;
+
+}
+
+.tarkib1 img{
+    width: 100%;
+    
+}
+
+.tarkib1 .raqam{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tarkib1 .raqam h1{
+    font-size: 70px;
+    color: red;
+}
+
+.tarkib1 .raqam p{
+    font-size: 30px;
+    color: red;
+}
+
+
+/* ===2=== */
+
+
+.tarkib-yarim-hujum{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarkib-yarim-hujum .tarkib2{
+    border: 3px solid #fff;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    width: 13%;
+    height: auto;
+}
+
+.tarkib2 img{
+    width: 100%;
+    
+}
+
+.tarkib2 .raqam{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tarkib2 .raqam h1{
+    font-size: 70px;
+    color: red;
+}
+
+.tarkib2 .raqam p{
+    font-size: 30px;
+    color: red;
+}
+
+
+/* ===3=== */
+
+
+.tarkib-himoya{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarkib-himoya .tarkib3{
+    border: 3px solid #fff;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    width: 13%;
+    height: auto;
+    margin: 50px 40px;
+
+}
+
+.tarkib3 img{
+    width: 100%;
+    
+}
+
+.tarkib3 .raqam{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tarkib3 .raqam h1{
+    font-size: 70px;
+    color: red;
+}
+
+.tarkib3 .raqam p{
+    font-size: 30px;
+    color: red;
+}
+
+
+/* ===4=== */
+
+
+.tarkib-darvoza{
+    display: flex;
+    justify-content: center;
+}
+
+.tarkib-darvoza .tarkib4{
+    border: 3px solid #fff;
+    transition: all .5s ease;
+    border-radius: 10px;
+    width: 13%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.tarkib4 img{
+    width: 100%;
+    
+}
+
+.tarkib4 .raqam{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tarkib4 .raqam h1{
+    font-size: 70px;
+    color: red;
+}
+
+.tarkib4 .raqam p{
+    font-size: 30px;
+    color: red;
+}
+
+/* HOVER */
+
+.tarkib .tarkib1:hover{
+    box-shadow: 10px 5px 20px 5px yellow;
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+
+.tarkib .tarkib2:hover{
+    box-shadow: 10px 5px 20px 5px yellow;
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+
+.tarkib .tarkib3:hover{
+    box-shadow: 10px 5px 20px 5px yellow;
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+
+.tarkib .tarkib4:hover{
+    box-shadow: 10px 5px 20px 5px yellow;
+    transform: scale(0.9);
+    opacity: 0.8;
+    transition: all 1s ease;
+}
+
+/* STADION KODS */
+
+.stadion-rasm{
+    transition: all 1s ease;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    float: left;
+}
+
+.stadion-rasm img{
+    width: 50%;
+    height: 650px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.stadion-text{
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 80px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.stadion-text h2{
+    margin-bottom: 20px;
+}
+
+.stadion-text h2 i{
+    letter-spacing: 3px;
+    text-shadow: 2px 3px 0px black;
+   
+}
+
+/* HOVER */
+
+.stadion-rasm img:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.stadion-text:hover{
+    transform: translateY(-30px);
+}
+
+/* ACTIVE */
+
+.stadion-rasm img:active{
+    transform: scale(0.9);
+    box-shadow: 15px 0px 30px 5px yellow;
+}
+
+/* FOOTER */
+
+.footer .footer-1{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 20%;
+    margin: 30px;
+    
+}
+
+.footer .footer-1 .footer-images img{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+} 
+
+.footer .footer-1 img{
+    width: 100px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.footer-images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .footer-1 h5{
+    text-shadow: 2px 2px 0px grey;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer .footer-1 p{
+    text-align: center;
+    font-weight: 500;
+}
+
+@keyframes animate 
+{
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+
+#players{
+    transition: all 1s ease;
+}
+
+

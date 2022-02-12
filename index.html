@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clup is Barselona_2020</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+<body>
+
+  <!-- =======HEADEER======= -->
+
+        <div class="header">
+            <div class="header-right">
+                <ul class="header-right-ul">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#players">Players</a></li>
+                    <li><a href="#Compasition">Compasition</a></li>
+                    <li><a href="#stadion">Stadion</a></li>
+                    <li><a href="#footer">Footer</a></li>
+                    
+                    <img src="./imeges/barsa.jpg" alt="Rasm" style="cursor: pointer;">
+                </ul>
+            </div>
+        </div>
+
+        <div class="rasm-paragrif container"  id="home">
+            <div class="rasm1 " style="margin-top: 100px;">
+                <img src="./imeges/barcelona.jpg" alt="">
+            </div>
+            <div class="paragrif1" style="margin-top: 100px;">
+                <h2><i>BARCELONA HAQIDAGI QISQACHA!</i></h2>
+                <P>Barselona dunyodagi yetakki cluplardan biri hisoblanadi. "Barcelona" futbol klubi yana "Barça" nomi bilan ham mashhur bo'lgan katalon professional klubi — Ispaniya va dunyodagi eng ko'p sovrin yutgan klublardan biri hisoblanadi. 1899-yil Joan Gamper boshchiligidagi Shveytsariya, Britaniya, Ispaniya va Katalon futbolchilari tomonidan tashkil etilgan. Klub Kataloniya ramzlaridan biriga aylandi. Klubning shiori — Més que un club — (ya'ni "Bir jamoadan ko'proq"). "Barcelona" muxlislari o'zlarini "culés" deb atashadi.</P>
+            </div>
+        </div>
+
+        <div class="rasm-paragrif container">
+            <div class="paragrif2">
+                <h2><i>BARCELONA TARIXDA ERISHGAN YUTUQLARI!</i></h2>
+                <P>"Barcelona" — Ispaniyaning eng ko'p sovrin yutgan klubi hisoblanadi — 69ta (25-Ispaniya chempioni sovrini, 30-Ispaniya kubogi, 13-Ispaniya superkubogi, 2-Ispaniya Ligasi kubogi). Bundan tashqari, "Barcelona" Ispaniya chempionatidan quyi pog'onaga tushib ketmagan uchta klublardan birdir. Boshqa ikkitasi esa "Real Madrid" va "Athletic Bilbao".2013-yilda "Barcelona" futbolchilarning transfer qiymatiga asosan, dunyoning eng qimmat klubi deb topildi.2015-yilda "Barcelona" yana bir bor "Oltin xet-trik" qayd etib, futbol tarixida ikki bor "Trebl" qayd etgan yagona klubga aylandi. 2006-yil 14-iyulda klub UNICEF bilan 5 yillik shartnoma imzoladi, unga ko'ra fondning logotipi jamoa libosida paydo bo'ldi. 2012-yilda Katalonlar Qatar Foundation nodavlat notijorat tashkiloti bilan 5 yillik shartnoma imzoladi.</P>
+            </div>
+            <div class="rasm2">
+                <img src="./imeges/sovrin.jpg" width="500px" height="400px">
+            </div>
+        </div>
+
+<div class="container">
+        <div class="jamoa " id="players" >
+            <h1><i>COMMUNITY__________</i></h1>
+
+        </div>
+</div>
+
+
+        <div class="all-cards">
+
+            <!-- BIRINCHI QATOR -->
+            <!-- ======================================================= -->
+
+        <div class="cards1">
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/alba.png">
+                    <div class="card1-subtitle">
+                        <h4>Jordi Alba</h4>
+                        <p>Player Price<br>
+                            15,00 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                           Mar 21, 1989 (32)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/langle.png">
+                    <div class="card1-subtitle">
+                        <h4>Clement Lenglet</h4>
+                        <p>Player Price<br>
+                            18,00 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                            Jun 17, 1995 (26)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/dest.png">
+                    <div class="card1-subtitle">
+                        <h4>Sergino Dest</h4>
+                        <p>Player Price<br>
+                            30,00 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                            Nov 3, 2000 (21)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/fati.png">
+                    <div class="card1-subtitle">
+                        <h4>Ansu Fati</h4>
+                        <p>Player Price<br>
+                            60,00 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                            Oct 31, 2002 (19)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+       <!-- IKKINCHI QATOR -->
+       <!-- ============================================================= -->
+
+
+
+        <div class="cards1">
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/de yong.png">
+                    <div class="card1-subtitle">
+                        <h4>Frenkie de Jong</h4>
+                        <p>Player Price<br>
+                            90,00 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                            May 12, 1997 (24)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/coutino.png">
+                    <div class="card1-subtitle">
+                        <h4>Philippe Coutinho</h4>
+                        <p>Player Price<br>
+                            20,00 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                            Jun 12, 1992 (29)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/buskets.png">
+                    <div class="card1-subtitle">
+                        <h4>Sergio Busquets</h4>
+                        <p>Player Price<br>
+                            9,00 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                            Jul 16, 1988 (33)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/roberrto.png">
+                    <div class="card1-subtitle">
+                        <h4>Sergi Roberto</h4>
+                        <p>Player Price<br>
+                            15,00 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                            Feb 7, 1992 (29)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- UCHINCHI QATOR -->
+        <!-- ========================================================= -->
+
+
+        <div class="cards1">
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/pike.png">
+                    <div class="card1-subtitle">
+                        <h4>Gerard Pique</h4>
+                        <p>Player Price<br>
+                            7,50 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                            Feb 2, 1987 (34)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/messi.png">
+                    <div class="card1-subtitle">
+                        <h4>Leonel Messi</h4>
+                        <p>Player Price<br>
+                            80,00 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                            Jun 2, 1988 (33)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/dembele.png">
+                    <div class="card1-subtitle">
+                        <h4>Ousmane Dembele</h4>
+                        <p>Player Price<br>
+                            50,00 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                            May 15, 1997 (24)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="card1">
+                <div class="card1-image">
+                    <img src="./imeges/grizman.png">
+                    <div class="card1-subtitle">
+                        <h4>Griezmann</h4>
+                        <p>Player Price<br>
+                            15,00 mln$
+                        </p>
+                        <p>Date of Birth and Age <br>
+                            May 13, 1999 (22)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    
+        <!-- TO'RTINCHI QATOR -->
+        <!-- ======================================================= -->
+
+        
+    <div class="cards1">
+        <div class="card1">
+            <div class="card1-image w-100">
+                <img src="./imeges/untiti.png" style="border-radius: 50%;">
+                <div class="card1-subtitle">
+                    <h4>Memphis Depay</h4>
+                    <p>Player Price<br>
+                        45,00 mln$
+                    </p>
+                    <p>Date of Birth and Age <br>
+                        Feb 13, 1994 (27)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="card1-image w-100">
+                <img src="./imeges/neto.png" style="border-radius: 50%;">
+                <div class="card1-subtitle">
+                    <h4>Neto</h4>
+                    <p>Player Price<br>
+                        5,00 mln$
+                    </p>
+                    <p>Date of Birth and Age <br>
+                        Jul 19, 1989 (32)	
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="card1-image w-100">
+                <img src="./imeges/semedo.png" style="border-radius: 50%;">
+                <div class="card1-subtitle">
+                    <h4>Nelson Semedo</h4>
+                    <p>Player Price<br>
+                        25,00 mln$
+                    </p>
+                    <p>Date of Birth and Age <br>
+                        Aug 5, 2004 (17)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="card1-image w-100">
+                <img src="./imeges/riki puch.png" style="border-radius: 50%;">
+                <div class="card1-subtitle">
+                    <h4>Rique Puch</h4>
+                    <p>Player Price<br>
+                        15,00 mln$
+                    </p>
+                    <p>Date of Birth and Age <br>
+                        Aug 13, 1999 (22)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- BESHINCHI QATOR -->
+    <!-- ============================================================== -->
+
+
+    <div class="cards1">
+        <div class="card1">
+            <div class="card1-image w-100">
+                <img src="./imeges/pedri.png" style="border-radius: 50%;">
+                <div class="card1-subtitle">
+                    <h4>Pedri</h4>
+                    <p>Player Price<br>
+                        80,00 mln$
+                    </p>
+                    <p>Date of Birth and Age <br>
+                        Nov 25, 2002 (19)	
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="card1-image w-100">
+                <img src="./imeges/terishtegen.png" style="border-radius: 50%;">
+                <div class="card1-subtitle">
+                    <h4>M. ter Stegen</h4>
+                    <p>Player Price<br>
+                        55,00 mln$
+                    </p>
+                    <p>Date of Birth and Age <br>
+                        Apr 30, 1992 (29)	
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="card1-image w-100">
+                <img src="./imeges/perez.png" style="border-radius: 50%;">
+                <div class="card1-subtitle">
+                    <h4>Perez</h4>
+                    <p>Player Price<br>
+                       12,00 mln$
+                    </p>
+                    <p>Date of Birth and Age <br>
+                        Jun 2, 2003 (18)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="card1-image w-100">
+                <img src="./imeges/vidal.png" style="border-radius: 50%;">
+                <div class="card1-subtitle">
+                    <h4>Arturo Vidal</h4>
+                    <p>Player Price<br>
+                        9,00 mln$
+                    </p>
+                    <p>Date of Birth and Age <br>
+                        Jun 5, 1991 (30)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="container" id="Compasition">
+    <div class="nodir">
+        <h2><i>COMPASITION_______</i></h2>
+    </div>
+</div>
+
+
+
+<!-- ==================TARKIB====================== -->
+
+
+<div class="tarkib">
+
+    <div class="tarkib-hujum container">
+
+        <div class="tarkib1">
+            <img src="./imeges/grizman.png">
+                <div class="raqam">
+                    <h1>7</h1>
+                    <p>GRIEZMANN</p>
+                </div>
+        </div>
+    
+        <div class="tarkib1">
+            <img src="./imeges/depay.png">
+                <div class="raqam">
+                    <h1>9</h1>
+                    <p>DEPAY</p>
+                </div>
+        </div>
+
+        <div class="tarkib1">
+            <img src="./imeges/messi.png">
+                <div class="raqam">
+                    <h1>10</h1>
+                    <p>MESSI</p>
+                </div>
+        </div>
+
+    </div>
+
+
+  <!-- ======================================================= -->
+
+
+        <div class="tarkib-yarim-hujum">
+
+            <div class="tarkib2">
+                <img src="./imeges/de yong.png">
+                    <div class="raqam">
+                        <h1>21</h1>
+                        <p>DE YONG</p>
+                    </div>
+            </div>
+        
+
+            <div class="tarkib2">
+                <img src="./imeges/buskets.png">
+                    <div class="raqam">
+                        <h1>5</h1>
+                        <p>BUSQUETS</p>
+                    </div>
+                </div>
+
+            <div class="tarkib2">
+                 <img src="./imeges/dembele.png">
+                     <div class="raqam">
+                        <h1>17</h1>
+                        <p>DEMBELE</p>
+                    </div>
+                </div>
+
+        </div>
+
+
+    <!-- =========================================== -->
+
+
+        <div class="tarkib-himoya">
+            <div class="tarkib3">
+                <img src="./imeges/alba.png">
+                    <div class="raqam">
+                        <h1>18</h1>
+                        <p>ALBA</p>
+                    </div>
+            </div>
+
+            <div class="tarkib3">
+                <img src="./imeges/Langle.png">
+                    <div class="raqam">
+                        <h1>15</h1>
+                        <p>LANGLET</p>
+                    </div>
+            </div>
+            
+            <div class="tarkib3">
+                <img src="./imeges/pike.png">
+                     <div class="raqam">
+                        <h1>3</h1>
+                        <p>PIQUE</p>
+                    </div>
+            </div>
+
+        
+            <div class="tarkib3">
+                <img src="./imeges/dest.png">
+                    <div class="raqam">
+                        <h1>2</h1>
+                        <p>DEST</p>
+                    </div>
+            </div>
+        </div>
+
+        <!-- ===================================================== -->
+
+        <div class="tarkib-darvoza">
+            <div class="tarkib4">
+                <img src="./imeges/terishtegen.png">
+                    <div class="raqam">
+                        <h1>1</h1>
+                        <p>Ter Stegen</p>
+                    </div>
+            </div>
+        </div>
+
+</div>
+
+
+    <div class="container subline" id="stadion">
+        <h1><i>STADION________</i></h1>
+    </div>
+
+
+    <!-- =======================STADION============================== -->
+
+
+    <div class="stadion">
+        <div class="stadion-rasm">
+            <img src="./imeges/Comp nou.jpg" alt="Rasm">
+                <div class="stadion-text">
+                    <h2><i>CAMP NOU</i></h2>
+                    <p>
+                        "Kamp Nou" (kataloncha Camp Nou, ya'ni "yangi maydon") — "Barselona" futbol klubining stadioni. 1957-yilda ochilganidan buyon stadion Katalon klubiga tegishli bo'lgan va boshida "Estadi del FC Barcelona" (ya'ni "FC Barselona stadioni") deb nomlangan, keyinchalik unga "Kamp Nou" deb nom berishgan. O'zining hozirgi nomini rasman 2000-yil "Real Madrid"ga qarshi o'yindan so'ng olishgan.
+                        "Kamp Nou" o'z bag'riga 99 354 tomoshabinni sig'dira oladi. Bu nafaqat Ispaniya, balki Yevropada eng katta stadiondir. Stadion dunyoning o'z                 bag'riga eng ko'p muxlis sig'dira oladigan stadionlar ro'yxatida                 12-o'rinni va futbol stadionlari orasida esa Meksikaning "Azteka"                 stadionidan so'ng 2-o'rinni olgan.
+                        "Kamp Nou" Yevropa va Jahon chempionati musobaqalarining o'yinlari  shuningdek, futbol bo'yicha 1992-yilgi Olimpiya o'yinlari, shu jumladan                   finaliga ham mezbonlik qilgan. Maydonda birin ketin yirik Yevrokubok                   turnirlarining finallari bo'lib o'tdi. Bundan tashqari stadion ko'pincha                   konsert maydonchasi sifatida ishlatildi: bu yerda Maykl Jekson, Xulio                   Iglesias va shunga o'xshash mashhur insonlar konsert qo'yishgan.
+                    </p>
+                </div>
+        </div>
+    </div>
+
+    
+
+    <!-- FOOTER -->
+
+    
+
+        <div class="footer">
+
+            <div class="footer-1">
+                    <h5><i>Clup</i></h5>
+                    <p>Clup is Ispan</p>
+                <div class="footer-images" id="footer">
+                    <img src="./imeges/ispan.png">
+                    <img src="./imeges/embleme.png">
+                </div>
+            </div>
+        
+                <div class="footer-1">
+                        <h5><i>HEAD COACH</i></h5>
+                        <p>Xavi Hernandes</p>
+                        <img src="./imeges/xavi2.jpg">
+                </div>
+    
+                <div class="footer-1">
+                        <h5><i>ASSISTANT COACHES</i></h5>
+                            <p>Sergio Alegre</p>
+                            <p>Oscar Hernandes</p>
+                </div>
+                 
+                <div class="footer-1">
+                        <h5><i>FITNESS COACH</i></h5>
+                        <p>Ivan Torres</p>
+                </div>
+        </div>
+    
+
+</body>
+</html>
